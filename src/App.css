@@ -3,6 +3,7 @@
 }
 
 .App-logo {
+  font-size: 80pt;
   pointer-events: none;
 }
 
@@ -10,21 +11,6 @@
   .App-logo {
     animation: App-logo-spin infinite 10s linear, App-color-change infinite 20s linear;
   }
-}
-
-.App-header {
-  background-color: #0d2092;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: #dddb03;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
@@ -45,8 +31,41 @@
   100.0%  {color:#d32935;}
 }
 
-.big-letter {
-  font-size: 80pt;
+.App-body {
+  width: 100%;
+  background-color: #0d2092;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: #dddb03;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-header {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+a {
+  color: inherit;
+}
+
+.App-content {
+  text-align: justify;
+  font-size: calc(8px + 1vmin);
+  align-items: flex-start;
+  width: 100%;
+  max-width: 800px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: black;
+  border-width: 2px;
 }
 
 .icon-container {
@@ -55,7 +74,7 @@
   justify-content: center;
   align-items: center;
   gap: 50px;
-  margin-top: 80px;
+  margin-top: 10px;
 }
 
 .icon-link {
@@ -66,11 +85,11 @@
 
 .icon {
   color: #54b01c;
-  font-size: 50px;
+  font-size: 30px;
   margin-bottom: 2px;
 }
 
 .label {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: bold;
 }
