@@ -73,8 +73,8 @@ a {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 50px;
-  margin-top: 10px;
+  gap: 40px;
+  margin-top: 20px;
 }
 
 .icon-link {
@@ -85,11 +85,11 @@ a {
 
 .icon {
   color: #54b01c;
-  font-size: 30px;
-  margin-bottom: 2px;
+  font-size: 25px;
+  margin-bottom: 1px;
 }
 
 .label {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
 }

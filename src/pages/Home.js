@@ -5,7 +5,7 @@ export default function Home() {
         <>
             <h4>Welcome!</h4>
 
-            Here you can find some links about me and my projects.
+            Here you can find information about me and my projects.
         </>
     );
 };
